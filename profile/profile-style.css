@@ -1,0 +1,13 @@
+@charset "utf-8";
+body{
+    /* 背景の色の設定 */
+    background-color: 	#000000;
+}
+body{
+    /* 文字色の設定 */
+    color: white;
+}
+img{
+    /* 画像の大きさの設定 */
+    width: 200px;
+}
