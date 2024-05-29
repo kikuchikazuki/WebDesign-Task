@@ -1,13 +1,15 @@
 @charset "utf-8";
-body{
+.back-black{
     /* 背景の色の設定 */
     background-color: 	#000000;
 }
-body{
-    /* 文字色の設定 */
+.text-white{
     color: white;
 }
 img{
     /* 画像の大きさの設定 */
     width: 200px;
+}
+.text-red{
+    color: red;
 }
