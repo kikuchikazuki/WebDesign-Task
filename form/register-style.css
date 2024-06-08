@@ -1,0 +1,23 @@
+@charset "utf-8";
+table{
+    border: solid 3px;
+}
+th{
+    border: solid 1px;
+    background-color: #696969;
+    padding: 10px;
+}
+td{
+    border: solid 1px;
+    background-color: #DCDCDC;
+    padding: 10px;
+}
+.text-red{
+    color: white;
+    background-color: red;
+    border:  solid 1px red;
+    border-radius: 10px;
+}
+.text-small{
+    font-size: 10px;
+}
