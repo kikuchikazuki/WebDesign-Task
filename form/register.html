@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登録フォーム</title>
     <link rel="stylesheet" href="register-style.css">
 </head>
+
 <body>
     <p>必要事項を入力の上、送信ボタンを押してください。</p>
     <form action="#" method="get">
@@ -13,63 +15,62 @@
             <tr>
                 <th>ID <span class="text-red">必須</span><span class="text-small">(メールアドレス)</span></th>
                 <td>
-                    <input type="email" size="30" placeholder="例:xxx@morijyobi.ac.jp">
+                    <input type="email" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
                 </td>
             </tr>
             <tr>
                 <th>パスワード <span class="text-red">必須</span></th>
                 <td>
-                    <input type="password" minlength="8" size="30">
-                    <label><input type="checkbox"></label>
-                    <label>パスワードを表示する</label>
+                    <input type="password" minlength="8" size="30" required>
+                    <label><input type="checkbox" required>パスワードを表示する。</label>
                 </td>
             </tr>
             <tr>
                 <th>氏名 <span class="text-red">必須</span></th>
                 <td>
-                    性：<input type="text" placeholder="例：盛岡"> 名：<input type="text" placeholder="例：太郎">
+                    性：<input type="text" placeholder="例：盛岡" required> 名：<input type="text" placeholder="例：太郎" required>
                 </td>
             </tr>
             <tr>
                 <th>住所</th>
                 <td>
-                    〒<input type="text" name="readonly" size="8"readonly><br>
-                    <input type="text"><br>
-                    <input type="text" placeholder="番地"><br>
-                    <input type="text" size="30" placeholder="建物名">
+                    〒<input type="text" name="address" size="8" value="663-5756" readonly><br>
+                    <label><input type="addressA" value=""></label><br>
+                    <label><input type="addressB" placeholder="番地"></label><br>
+                    <label><input type="addressC" size="30" placeholder="建物名"></label>
                 </td>
             </tr>
             <tr>
                 <th>携帯電話番号 <span class="text-red">必須</span><span class="text-small">（ハイフンなし）</span>
                 </th>
                 <td>
-                    <input type="tel">
+                    <input type="tel" required>
                 </td>
             </tr>
             <tr>
                 <th>学科・学年 <span class="text-red">必須</span></th>
                 <td>
-                    学科：<select name="corce-type">
-                    <option value="">学科を選択してください</option>
-                    <option value="">システム系学科</option>
-                    <option value="">ビジネス系学科</option>
-                    <option value="">デザイン系学科</option>
-                </select>
-                    学年：<select name="grade-type">
-                    <option value="">学年を選択してください</option>
-                    <option value="">１年</option>  
-                    <option value="">２年</option>
-                    <option value="">３年</option>
-                    <option value="">４年</option>
+                    学科：<select name="corce-type" required>
+                        <option name="" value="">学科を選択してください</option>
+                        <option name="" value="s">システム系学科</option>
+                        <option name="" value="d">ビジネス系学科</option>
+                        <option name="" value="b">デザイン系学科</option>
+                    </select>
+                    学年：<select name="grade-type" required>
+                        <option value="">学年を選択してください</option>
+                        <option value="1">１年</option>
+                        <option value="2">２年</option>
+                        <option value="3">３年</option>
+                        <option value="4">４年</option>
                     </select>
                 </td>
-                
+
             </tr>
             <tr>
                 <th>お得な情報・クーポン <span class="text-red">必須</span></th>
                 <td>
-                    <input type="radio">受け取る
-                    <input type="radio">受け取らない
+                    <label><input type="radio" name="tagu" required>受け取る</label>
+                    <label><input type="radio" name="tagu">受け取らない</label>
                 </td>
             </tr>
             <tr>
@@ -86,4 +87,5 @@
 
 
 </body>
-</html
+
+</html>
