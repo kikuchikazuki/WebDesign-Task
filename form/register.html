@@ -15,14 +15,14 @@
             <tr>
                 <th>ID <span class="text-red">必須</span><span class="text-small">(メールアドレス)</span></th>
                 <td>
-                    <input type="email" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
+                    <input type="email" name="id_name" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
                 </td>
             </tr>
             <tr>
                 <th>パスワード <span class="text-red">必須</span></th>
                 <td>
-                    <input type="password" minlength="8" size="30" required>
-                    <label><input type="checkbox" required>パスワードを表示する。</label>
+                    <input type="password" name="user_password" minlength="8" size="30" required>
+                    <label><input type="checkbox" name="passcheck" required>パスワードを表示する。</label>
                 </td>
             </tr>
             <tr>
@@ -34,8 +34,8 @@
             <tr>
                 <th>住所</th>
                 <td>
-                    〒<input type="text" name="address" size="8" value="663-5756" readonly><br>
-                    <label><input type="addressA" value=""></label><br>
+                    〒<input type="text" name="address" size="8" value="020-0021" readonly><br>
+                    <label><input type="addressA" value="岩手県盛岡市中央３丁目" readonly></label><br>
                     <label><input type="addressB" placeholder="番地"></label><br>
                     <label><input type="addressC" size="30" placeholder="建物名"></label>
                 </td>
@@ -58,10 +58,10 @@
                     </select>
                     学年：<select name="grade-type" required>
                         <option value="">学年を選択してください</option>
-                        <option value="1">１年</option>
-                        <option value="2">２年</option>
-                        <option value="3">３年</option>
-                        <option value="4">４年</option>
+                        <option value="1年">１年</option>
+                        <option value="2年">２年</option>
+                        <option value="3年">３年</option>
+                        <option value="4年">４年</option>
                     </select>
                 </td>
 
