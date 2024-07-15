@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+.tannsu{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.gm{
+    background-color: aqua;
+    padding: 30px 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.gm a{
+    display: block;
+    background-color: rgb(144, 153, 111);
+    text-decoration: none;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.gazou{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.gazou img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.anime{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ani{
+    background-color: aquamarine;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.nabi{
+    background-color: aquamarine;
+    display: block;
+    padding: 30px 30px;
+    margin: 30px 30px;
+    border-radius: 30px;  
+    width: 25%;
+}
+
+.tokutyou ul li{
+    list-style-image: url(img/images.png);
+}
+
+.box{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box a{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+
+.yostar{
+    margin: 30px;
+}
+
+.tokutyou{
+    background-color: bisque;
+}
+
+.ppp{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+h4{
+    background-color: burlywood;
+}

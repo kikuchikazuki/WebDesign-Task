@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+table, th, td{
+    border: solid 5px black;
+}
+
+table{
+    background-color: rgba(20, 179, 137, 0.6);
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.quiz{
+    background-color: burlywood;
+    padding: 30px 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.quiz a{
+    margin: auto;
+}
+
+.big{
+    font-size: 50px;
+}
+

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+}
+
+
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+
+.bigtext{
+    /* Webデザインの文字を大きくした */
+    font-size: 20px;
+}
+
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: #00552e;
+    text-decoration: none;
+    /* 太字にするプロパティ */
+    font-weight: bold;
+}
+
+header ul li + li{
+    border-left: 2px solid #00552e;
+}
+
+
+header, footer{
+    background-color: #dce6e6;
+    padding: 0.5rem;
+}
+
+body{
+    background-image: url(img/64722292e0294408.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
