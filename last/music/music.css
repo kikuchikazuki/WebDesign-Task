@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body {
+  background-image: url(../gazou/e56684d564b3f6acec2b41508773f958.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes infinity-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-infinity__wrap {
+  display: flex;
+  overflow: hidden;
+  height: 500px;
+
+}
+
+.scroll-infinity__list {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+
+
+
+}
+
+.scroll-infinity__list--left {
+  animation: infinity-scroll-left 30s infinite linear 0.5s both;
+}
+
+.scroll-infinity__item {
+  /* 画像大きさ */
+  width: calc(100vw);
+  object-fit: contain;
+  padding: 10px 50px;
+  height: 450px;
+  width: 450px;
+
+
+
+
+}
+
+.scroll-infinity__item>img {
+  width: 100%;
+}
+
+#arashi{
+  display: flow-root;
+  background-color: bisque;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.arashi-gazou {
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* margin: 0 auto; */
+}
+
+.arashi-gazou img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#hosinogen{
+  display: flow-root;
+  background-color: aquamarine;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.hosinogen-gazou {
+  width: 300px;
+  height: 300px;
+  float: right;
+  /* margin: 0 auto; */
+}
+
+.hosinogen-gazou img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#vaundy{
+  display: flow-root;
+  background-color: cadetblue;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.vaundy-gazou {
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* margin: 0 auto; */
+}
+
+.vaundy-gazou img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#yoasobi{
+  display: flow-root;
+  background-color: darkgray;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.yoasobi-gaozu {
+  width: 300px;
+  height: 300px;
+  float: right;
+  /* margin: 0 auto; */
+}
+
+.yoasobi-gazou img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#yonezu{
+  display: flow-root;
+  background-color: ghostwhite;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.yonezu-gazou {
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* margin: 0 auto; */
+}
+
+#higedan{
+  display: flow-root;
+  background-color: darkkhaki;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.higedan-gazou {
+  width: 300px;
+  height: 300px;
+  float: right;
+  /* margin: 0 auto; */
+  
+
+}
+
+.higedan-gazou img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.syoukai{
+  text-align: center;
+  margin: 80px 30%;
+  background-color: green;
+  border-radius: 30px;
+}
+
+.syoukai h2{
+  border-radius: 40px;
+
+}
+
+.syoukai h2 a{
+  text-decoration: none;
+}
+
+.syoukai{
+  margin: auto 30%;
+}
+
+h1{
+  margin: 60px 30%;
+}

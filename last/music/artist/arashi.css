@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+
+.box{
+    display: flex;
+    text-align: center;
+}
+
+.gazou{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.gazou img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item{
+    background-color: aquamarine;
+    padding: 30px 10px;
+    width: 25%;
+    margin: 30px auto;
+    border-radius: 20px;
+    height: 450px;
+}
+
+aside{
+    background-color:khaki;
+}
