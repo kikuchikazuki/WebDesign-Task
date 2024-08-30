@@ -111,3 +111,7 @@ h1{
 h4{
     background-color: burlywood;
 }
+
+.tokutyou ul li{
+    list-style-image: url(image/images.png);
+}
