@@ -15,36 +15,38 @@
             <tr>
                 <th>ID <span class="text-red">必須</span><span class="text-small">(メールアドレス)</span></th>
                 <td>
-                    <input type="email" name="id_name" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
+                    <input type="email" name="email" size="30" placeholder="例:xxx@morijyobi.ac.jp" required>
                 </td>
             </tr>
             <tr>
-                <th>パスワード <span class="text-red">必須</span></th>
+                <th>パスワード <span class="text-red">必須</span><span class="text-small">(半角英数字８文字以上)</span></th>
                 <td>
-                    <input type="password" name="user_password" minlength="8" size="30" required>
-                    <label><input type="checkbox" name="passcheck" required>パスワードを表示する。</label>
+                    <label><input type="password" name="password" minlength="8" size="30" required></label>
+                    <label><input type="checkbox" name="password_1" required>パスワードを表示する</label>
                 </td>
             </tr>
             <tr>
                 <th>氏名 <span class="text-red">必須</span></th>
                 <td>
-                    性：<input type="text" placeholder="例：盛岡" required> 名：<input type="text" placeholder="例：太郎" required>
+                    性：<input type="text" name="last_name" placeholder="例：盛岡" required>
+                    名：<input type="text" name="first_name" placeholder="例：太郎" required>
                 </td>
             </tr>
             <tr>
                 <th>住所</th>
                 <td>
                     〒<input type="text" name="address" size="8" value="020-0021" readonly><br>
-                    <label><input type="addressA" value="岩手県盛岡市中央３丁目" readonly></label><br>
+                    <label><input type="addressA" value="岩手県盛岡市中央道3丁目" readonly></label><br>
                     <label><input type="addressB" placeholder="番地"></label><br>
                     <label><input type="addressC" size="30" placeholder="建物名"></label>
                 </td>
             </tr>
             <tr>
-                <th>携帯電話番号 <span class="text-red">必須</span><span class="text-small">（ハイフンなし）</span>
+                <th>
+                    携帯電話番号 <span class="text-red">必須</span><span class="text-small">（ハイフンなし）</span>
                 </th>
                 <td>
-                    <input type="tel" required>
+                    <input type="tel" name="use_tel" required>
                 </td>
             </tr>
             <tr>
@@ -58,10 +60,10 @@
                     </select>
                     学年：<select name="grade-type" required>
                         <option value="">学年を選択してください</option>
-                        <option value="1年">１年</option>
-                        <option value="2年">２年</option>
-                        <option value="3年">３年</option>
-                        <option value="4年">４年</option>
+                        <option value="1">１年</option>
+                        <option value="2">２年</option>
+                        <option value="3">３年</option>
+                        <option value="4">４年</option>
                     </select>
                 </td>
 
@@ -70,7 +72,7 @@
                 <th>お得な情報・クーポン <span class="text-red">必須</span></th>
                 <td>
                     <label><input type="radio" name="tagu" required>受け取る</label>
-                    <label><input type="radio" name="tagu">受け取らない</label>
+                    <label><input type="radio" name="tagu" required>受け取らない</label>
                 </td>
             </tr>
             <tr>
